@@ -12,3 +12,8 @@ let obj={
 alert(`heartly congrulation to the ${obj.studname}.she got placed in ${obj.company} , the role is ${obj.role} with ${obj.package} LPA package and joing on ${obj.joindate}`)
 
 
+// let x = 5;
+// while (x < 3) {
+//     console.log(x);
+//     x++;
+// }
