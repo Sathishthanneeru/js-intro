@@ -74,14 +74,19 @@
 
 
 
-def fuction_decorator(func):
-    def wrapper():
-        print("pls check a4 sheets")
-        func()
-        print("tq")
-    return wrapper
-@fuction_decorator
-def printer():
-    print("printing......")
-printer()
+# def fuction_decorator(func):
+#     def wrapper():
+#         print("pls check a4 sheets")
+#         func()
+#         print("tq")
+#     return wrapper
+# @fuction_decorator
+# def printer():
+#     print("printing......")
+# printer()
 
+# sets 
+
+# set1={69,1,2,3,4,5}
+# set2={10,11,12,13,9,31,38,55,8,7,6,5,14,15,20}
+# print (set1.union(set2))
