@@ -13,12 +13,12 @@
 // op=arr.toString();
 // console.log(op)
 
-// let arr=[1,2,3,4,5]
-// op=arr.at(3)
+// let arr=[1,2,3,4,5,9,8,0,7]
+// op=arr.at(5)
 // console.log(op)
 
 // let arr=[1,2,3,4,5]
-// op=arr.join("-")
+// op=arr.join("+")
 // console.log(op)
 
 // let arr=[1,2,3,4,5]
@@ -29,12 +29,12 @@
 // op=arr.push(7,8,"dfgjhkj")
 // console.log(op)
 
-// let arr=[1,2,3,4,5,6]
+// let arr=[10,2,3,4,5,6]
 // op=arr.shift()
 // console.log(op)
 
-// let arr=[1,2,3,4,5,6]
-// op=arr.unshift(0)
+// let arr=[1,2,3,4,5,6,8,9]
+// op=arr.unshift()
 // console.log(op)
 
 // let arr=[1,2,3,4,5,6]
@@ -137,7 +137,7 @@
 // });
 // console.log(op);
 
-// let arr=["hi","sathish","welcome","to","hyd"]
+// let arr=["hi","sathish","welcome","hi","hyd"]
 // let op=arr.map(function(value,index,arr){
 //     return value=="hi"
 
@@ -320,8 +320,8 @@
 // let z=parseInt("11AB",16);                                                    //dout
 // console.log(z)
 
-let x = Math.random() * 100000;
-let otp = Math.floor(x);
-if (otp < 100000) {
-  console.log(otp + 100000);
-} else console.log(otp);
+// let x = Math.random() * 100000;
+// let otp = Math.floor(x);
+// if (otp < 100000) {
+//   console.log(otp + 100000);
+// } else console.log(otp);
