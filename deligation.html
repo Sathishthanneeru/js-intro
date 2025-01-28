@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="parent">
+      <li id="id1">sathish</li>
+      <li id="id2">sonu</li>
+      <li id="id3">ramesh</li>
+    </ul>
+
+    <script>
+      let parent = document.getElementById("parent");
+      let child1 = document.getElementById("id1");
+      let child2 = document.getElementById("id2");
+      let child3 = document.getElementById("id3");
+
+    //   child1.addEventListener("click", (e) => {
+    //     e.target.style.backgroundColor = "red";
+    //   });
+    //   child2.addEventListener("click", (e) => {
+    //     e.target.style.backgroundColor = "red";
+    //   });
+    //   child3.addEventListener("click", (e) => {
+    //     e.target.style.backgroundColor = "red";
+    //   });
+
+    parent.addEventListener("click",(e)=>{
+        e.target.style.backgroundColor="black"
+    })
+    </script>
+  </body>
+</html>

@@ -36,14 +36,17 @@
       let child = document.getElementById("child");
       let grandchild = document.getElementById("grandchild");
 
-      parent.addEventListener("click", () => {
+      parent.addEventListener("click", (e) => {
+        // e.stopImmediatePropagation()  
         console.log("parent is clicked");
-      });
-      child.addEventListener("click", () => {
-        console.log("child is clicked");
       },true);
-      g_child.addEventListener("click ", () => {
-        console.log("grand child is clicked");
+      child.addEventListener("click", (e) => {
+        // e.stopImmediatePropagation()
+
+        console.log("child is clicked");
+      });
+      grandchild.addEventListener("click", () => {
+        console.log("grandchild is clicked");
       });
     </script>
   </body>
