@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+    <script>
+        // alert("its very danger")
+        // window.prompt("enter your name:")
+        // window.confirm("are you sure want to exist")
+
+        // let op=window.location.port
+        // console.log(op)
+        let username="sathish"
+        let email="sathisha@gmail.com"
+        let btn=document.getElementById("btn")
+        let text=document.createElement("p")
+        btn.addEventListener("click",()=>{
+            // location.replace("https://www.hotstar.com/in/home?ref=%2Fin")
+            // window.open("https://www.hotstar.com/in/home?ref=%2Fin")
+            // window.close()
+            // localStorage.setItem("name",username) 
+        //     localStorage.setItem("email",email)
+
+        let x=localStorage.getItem("email")
+        text.innerHTML=x;
+        document.body.append(text)
+
+        })
+    </script>
+</body>
+</html>
