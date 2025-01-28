@@ -90,3 +90,62 @@
 # set1={69,1,2,3,4,5}
 # set2={10,11,12,13,9,31,38,55,8,7,6,5,14,15,20}
 # print (set1.union(set2))
+
+
+
+
+# my_int=2
+# print(int)
+
+# my_float=3.5
+# print(float)
+
+# my_string="sathish"
+# print("string")
+
+# my_boolean=True
+# print(my_boolean)
+# my_boolean=False
+# print(my_boolean)
+
+# list1=[1,2,3,4,5,6,7]
+# for i in list1:
+#     print(i)
+# print(list1)
+# print(list1[3])
+
+# a=2
+# b=2
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a or b)
+# print(a and b)
+
+
+# n=10
+# for i in range(1,n+1):
+#     print(i)
+
+
+# list2=[1,2,3,4,5,6]
+# sum=0
+# for i in list2:
+#     sum=sum+i
+#     print(sum)
+
+
+# list=[1,2,3,4,5,6]
+# sum=sum(list)
+# print(sum)
+
+
+
+    
+
+
+
+
+
+
+
